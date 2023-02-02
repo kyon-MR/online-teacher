@@ -1,0 +1,370 @@
+/* 
+<リンクのhover時の挙動>
+・FVおよび中間CVのボタンはhover時に色が反転するイメージでおります。
+・ヘッダー/フッターの「サービス」などのリンクはhover時に太字になるイメージでおります。
+*/
+
+/* ---------- 共通 ---------- */
+body {
+  background-color: #F9E5DA;
+  /* overflow: hidden; */
+  width: 100%;
+}
+
+.container {
+  width: calc(100% - 160px);
+  text-align: center;
+  margin: 0 auto;
+  /* background-color: #fff; */
+}
+
+.decoration {
+ width: 100%;
+ height: 200px;
+ background-image: url(../img/flame.png); 
+ background-size: cover;
+ position: absolute;
+ top: 0;
+}
+
+.decoration02 {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/flame6.png); 
+  background-size: cover;
+  position: absolute;
+  top: 0;
+ }
+
+ .decoration03 {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/flame4.png); 
+  background-size: cover;
+  position: absolute;
+  top: 0;
+ }
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  color: #EE57F1;
+  font-size: 40px;
+}
+
+h2 {
+  color: #EE57F1;
+  font-size: 32px;
+}
+
+h3 {
+  color: #28293E;
+  font-size: 28px;
+}
+
+p {
+  color: #28293E;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+/* ---------- header ---------- */
+header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px 15px 40px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+header nav ul {
+  display: flex;
+  padding-top: 40px;
+}
+
+header nav ul li + li {
+  margin-left: 50px;
+}
+
+header ul #line {
+  border: 1px solid #ffffff;
+  padding: 10px 25px;
+  border-radius: 4px;
+}
+
+/* ---------- hero section ---------- */
+.hero {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  height: 865px;
+  background-image: url(../img/メイン画像.jpg);
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
+
+.main-message {
+  position: absolute;
+  top: 150px;
+}
+
+.main-message h3 {
+  color: #F8EE0A;
+  padding-left: 45px;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.main-message h1 {
+  font-size: 64px;
+  color: #EE57F1;
+  padding: 10px 25px 10px 40px;
+  margin: 45px 0 40px 0;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.main-message h1 span {
+  font-size: 80px;
+}
+
+.main-message h2 {
+  font-size: 70px;
+  line-height: 90px;
+  color: #fff;
+  padding-left: 3px;
+}
+
+.sub-message {
+  position: absolute;
+  bottom: 160px;
+}
+
+.sub-message p {
+  width: 250px;
+  text-align: center;
+  color: #EE57F1;
+  background-color: #fff;
+  padding: 5px 40px;
+  margin-left: 180px;
+  border-radius: 30px;
+}
+
+.sub-message h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin-left: 70px;
+  margin-top: 20px;
+  border: 5px solid #fff;
+  padding: 10px 25px;
+}
+
+.sub-message h5 span {
+  color: #F8EE0A;
+  letter-spacing: 3px;
+}
+
+.sub-message h5 #seven {
+  font-size: 36px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 50px;
+}
+
+.btn button {
+  margin-left: 45px;
+  width: 420px;
+  border: 5px solid #fff;
+  border-radius: 30px;
+  background-color: #67BD83;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  opacity: 0.7;
+}
+
+.btn button p {
+  font-size: 28px;
+  color: #fff;
+}
+
+.btn a {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 25px;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  border-radius: 6px;
+}
+
+/* ---------- worry section ---------- */
+.worry {
+  position: relative;
+  height: 1000px;
+}
+
+.worry h1 {
+  padding-top: 80px;
+}
+
+.worry h3 {
+  line-height: 70px;
+}
+
+.worry img {
+  width: 400px;
+  height: 280px;
+}
+
+.worry .info {
+  padding-top: 70px;
+}
+
+.worry .info .desc01,
+.worry .info .desc02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.worry .info .desc02 {
+  flex-direction: row-reverse;
+  padding-top: 40px;
+}
+
+/* ---------- about section ---------- */
+.about {
+  background-color: #FAE7F0;
+  height: 950px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about .triangle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -70px;
+  left: 47%;
+  background-color: #EE57F1;
+  transform: rotate(-45deg);
+}
+
+.about img {
+  width: 490px;
+  height: 360px;
+}
+
+.about h1 {
+  padding-top: 110px;
+}
+
+.about h2 {
+  padding: 120px 0 30px 0;
+}
+
+.about h3 {
+  padding-bottom: 110px;
+}
+
+.about .info {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.about .info .desc {
+  text-align: left;
+  width: 100%;
+}
+
+.about .info .desc span {
+  color: #EE57F1;
+}
+
+.about .info .desc .reason span {
+  font-weight: bold;
+}
+
+.about .info .desc p:first-child {
+  font-weight: bold;
+  padding-bottom: 50px;
+  font-size: 28px;
+}
+
+.about .info .desc p:last-child {
+  padding-top: 10px;
+  font-size: 18px;
+  width: 550px;
+}
+
+
+/* ---------- profile section ---------- */
+.profile {
+  position: relative;
+  height: 1300px;
+  width: 100%;
+}
+
+.profile img {
+  width: 450px;
+  height: 450px;
+}
+
+.profile h2 {
+  padding-top: 200px;
+}
+
+.profile h3 {
+  padding: 30px 0 90px 0;
+}
+
+.profile .info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.profile .info .desc {
+  width: 100%;
+}
+
+.profile .info .desc p {
+  width: 90%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.profile .info .desc p:last-child {
+  padding-top: 50px;
+  font-weight: normal;
+}
+
+.profile .info .desc p span {
+  color: #EE57F1;
+  font-size: 28px;
+}
