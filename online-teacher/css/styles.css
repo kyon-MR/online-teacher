@@ -7,7 +7,6 @@
 /* ---------- 共通 ---------- */
 body {
   background-color: #F9E5DA;
-  /* overflow: hidden; */
   width: 100%;
 }
 
@@ -59,12 +58,12 @@ a:hover {
 }
 
 h1 {
-  color: #EE57F1;
+  color: #E658A6;
   font-size: 40px;
 }
 
 h2 {
-  color: #EE57F1;
+  color: #E658A6;
   font-size: 32px;
 }
 
@@ -137,7 +136,7 @@ header ul #line {
 
 .main-message h1 {
   font-size: 64px;
-  color: #EE57F1;
+  color: #E658A6;
   padding: 10px 25px 10px 40px;
   margin: 45px 0 40px 0;
   background-color: #fff;
@@ -163,7 +162,7 @@ header ul #line {
 .sub-message #students {
   width: 250px;
   text-align: center;
-  color: #EE57F1;
+  color: #E658A6;
   background-color: #fff;
   padding: 5px 40px;
   margin-left: 180px;
@@ -226,6 +225,7 @@ header ul #line {
 
 /* ---------- worry section ---------- */
 .worry {
+  width: 100%;
   position: relative;
   height: 1000px;
 }
@@ -262,6 +262,7 @@ header ul #line {
 
 /* ---------- about section ---------- */
 .about {
+  width: 100%;
   background-color: #FAE7F0;
   height: 950px;
   position: relative;
@@ -274,7 +275,7 @@ header ul #line {
   position: absolute;
   top: -70px;
   left: 47%;
-  background-color: #EE57F1;
+  background-color: #E658A6;
   transform: rotate(-45deg);
 }
 
@@ -307,7 +308,7 @@ header ul #line {
 }
 
 .about .info .desc span {
-  color: #EE57F1;
+  color: #E658A6;
 }
 
 .about .info .desc .reason span {
@@ -371,7 +372,7 @@ header ul #line {
 }
 
 .profile .info .desc p span {
-  color: #EE57F1;
+  color: #E658A6;
   font-size: 28px;
 }
 
@@ -470,6 +471,7 @@ header ul #line {
 
 /* ---------- benefit section ---------- */
 .benefit {
+  width: 100%;
   position: relative;
   height: 3700px;
 }
@@ -493,7 +495,7 @@ header ul #line {
 .benefit .content {
   width: 580px;
   height: 520px;
-  border: 1px solid #EE57F1;
+  border: 1px solid #E658A6;
 }
 
 .benefit .content img {
@@ -511,7 +513,7 @@ header ul #line {
 
 .benefit .content .text h5 {
   font-size: 20px;
-  color: #EE57F1;
+  color: #E658A6;
 }
 
 .benefit .content .text p {
@@ -524,7 +526,7 @@ header ul #line {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 70px;
 }
 
 /* ----------  change section ---------- */
@@ -540,3 +542,700 @@ header ul #line {
   height: 450px;
   object-fit: cover;
 }
+
+.changes {
+  display: flex;
+  padding-top: 250px;
+}
+
+.changes .text {
+  text-align: left;
+}
+
+.changes .text h2 {
+  padding-bottom: 35px;
+  line-height: 1.5;
+}
+
+.changes .text h5 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.changes .text h5:last-child {
+  width: 440px;
+}
+
+.changes .check {
+  background-color: #fff;
+  width: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+
+.changes .check .check-text {
+  display: flex;
+}
+
+.changes .check .check-text + .check-text {
+  padding-top: 15px;
+}
+
+.changes .check .check-text p {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.changes .check-pic {
+  display: flex;
+  margin-left: 90px;
+}
+
+.changes .check-pic .before {
+  background-color: #D9D9D9;
+  height: 510px;
+}
+
+.changes .check-pic .before h4 {
+  color: 28293E;
+  padding-top: 15px;
+}
+
+.changes .check-pic .after {
+  background-color: #E658A6;
+  height: 510px;
+}
+
+.changes .check-pic .after h4 {
+  color: #fff;
+  padding-top: 15px;
+}
+
+/* ----------  central-cv section ---------- */
+.central-cv {
+  background-image: url(../img/pink.png);
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.central-cv #icon {
+  position: absolute;
+  top: -75px;
+  left: 100px;
+}
+
+.central-cv .cv {
+  display: flex;
+}
+
+.central-cv .cv .text {
+  text-align: left;
+}
+
+.central-cv .cv .text h1 {
+  color: #fff;
+  padding: 40px 0 30px 0;
+}
+
+.central-cv .cv .text h2 {
+  color: #F8EE0A;
+  padding-top: 100px;
+}
+
+.central-cv .cv .btn {
+  display: flex;
+  left: 35px;
+}
+
+.central-cv .cv .btn button {
+  width: 300px;
+}
+
+.central-cv .cv .btn .tel {
+  display: flex;
+}
+
+.central-cv .cv .btn p,
+.central-cv .cv .btn a {
+  font-size: 20px;
+}
+
+.central-cv .cv .btn a {
+  padding-top: 13px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.central-cv .cv .btn .tel p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.central-cv .cv .image {
+  padding-top: 100px;
+  padding-left: 80px;
+}
+
+.central-cv .cv .image img {
+  width: 340px;
+  height: 250px;
+}
+
+/* ----------  customer-voice section ---------- */
+.customer-voice {
+  width: 100%;
+  position: relative;
+  height: 850px;
+}
+
+.customer-voice .text {
+  text-align: center;
+}
+
+.customer-voice .text h2 {
+  padding-top: 200px;
+}
+
+.customer-voice .text h3 {
+  padding: 30px 0 50px 0;
+}
+
+.customer-voice .voices {
+  display: flex;
+  gap: 50px;
+}
+
+.customer-voice .voices .voice01,
+.customer-voice .voices .voice02 {
+  border: 1px solid #E658A6;
+  padding: 40px 40px 20px 40px;
+}
+
+.customer-voice .voices h3 {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.customer-voice .voices h4 {
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 14px;
+}
+
+.customer-voice .voices p {
+  font-size: 16px;
+  text-align: left;
+}
+
+.customer-voice .voices .student01,
+.customer-voice .voices .student02,
+.customer-voice .voices .student03 {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ----------  price section ---------- */
+#price {
+  width: 100%;
+  position: relative;
+  background-color: #FAE7F0;
+  height: 1600px;
+}
+
+#price .text {
+  text-align: center;
+  padding-top: 200px;
+}
+
+#price .text h3 {
+  padding: 30px 0 100px 0;
+}
+
+#price .price-text .main-text {
+  text-align: left;
+  line-height: 2.0;
+  letter-spacing: 1.5;
+  padding: 0 70px 0 70px;
+}
+
+#price .price-text .main-text span {
+  color: #E658A6;
+}
+
+#price .price-text .main-text .one,
+#price .price-text .main-text .two,
+#price .price-text .main-text .three {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#price .price-main {
+  padding-top: 120px;
+  overflow: hidden;
+}
+
+#price .price-main .join,
+#price .price-main .guide {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 160px;
+  text-align: left;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+
+#price .price-main .join h2,
+#price .price-main .guide h2,
+#price .price-main .supplement h2 {
+  font-size: 42px;
+}
+
+#price .price-main .join p,
+#price .price-main .guide p {
+  color: #E658A6;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#price .price-main .join p span,
+#price .price-main .guide p span {
+  color: #28293E;
+  text-decoration: line-through;
+  font-size: 32px;
+}
+
+#price .price-main .guide p span:last-child {
+  text-decoration: none;
+  color: #E658A6;
+  font-size: 28px;
+}
+
+#price .price-main .supplement {
+  width: 100%;
+  margin-left: 160px;
+}
+
+#price .price-main .supplement span {
+  font-size: 36px;
+}
+
+#price .price-main .rectangle01 {
+  position: absolute;
+  bottom: 260px;
+  left: 100px;
+  width: 20px;
+  height: 270px;
+  transform: rotate(-20deg);
+  background-color: #E658A6;
+}
+
+#price .price-main .rectangle02 {
+  position: absolute;
+  bottom: 260px;
+  right: 100px;
+  width: 20px;
+  height: 270px;
+  transform: rotate(20deg);
+  background-color: #E658A6;
+}
+
+/* ----------  cost section ---------- */
+.cost {
+  width: 100%;
+  position: relative;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.cost .text p {
+  padding: 60px 0 60px 90px;
+  text-align: left;
+}
+
+.cost .text p span {
+  text-decoration: underline;
+  text-decoration-color: #E658A6;
+}
+
+.cost .cost-table {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.cost .cost-table table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cost .cost-table table th {
+  background-color: #F3D1BF;
+  border: 1px solid #28293E;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cost .cost-table table tr,
+.cost .cost-table table td {
+  border: 1px solid #28293E;
+} 
+
+.cost .cost-table table td {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.cost .cost-table table th span {
+  color: #E658A6;
+  font-size: 20px;
+}
+
+.cost .cost-table table span {
+  font-weight: bold;
+}
+
+.cost .cost-table table .head #emp01 {
+  border-top: 15px solid #E658A6;
+  border-right: 15px solid #E658A6;
+  border-left: 15px solid #E658A6;
+}
+
+.cost .cost-table table .first #emp02,
+.cost .cost-table table .second #emp03,
+.cost .cost-table table .third #emp04,
+.cost .cost-table table .fourth #emp05 {
+  border-right: 15px solid #E658A6;
+  border-left: 15px solid #E658A6;
+}
+
+.cost .cost-table table .fifth #emp06 {
+  border-right: 15px solid #E658A6;
+  border-left: 15px solid #E658A6;
+  border-bottom: 15px solid #E658A6;
+}
+
+.cost .cost-table table .fifth {
+  border: 15px solid #67BD83;
+}
+
+.cost .cost-table #table-text {
+  text-align: left;
+  padding-top: 85px;
+  padding-bottom: 65px;
+}
+
+.cost .cost-table #table-text span {
+  color: #E658A6;
+}
+
+.cost .year-cost {
+  text-align: center;
+}
+
+.cost .year-cost img {
+  width: 1100px;
+  height: 760px;
+  object-fit: contain;
+}
+
+.cost .year-cost p {
+  padding: 80px 0 80px 0;
+  font-size: 40px;
+  color: #E658A6;
+  font-weight: bold;
+}
+
+.cost .year-cost p span {
+  font-size: 48px;
+}
+
+/* ----------  trial section ---------- */
+.trial {
+  width: 100%;
+  height: 1500px;
+  background-color: #FAE7F0;
+  position: relative;
+}
+
+.trial .text h2 {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+.trial p {
+  padding-top: 80px;
+  text-align: left;
+}
+
+.trial p span {
+  color: #E658A6;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.trial .days {
+  position: relative;
+  width: 740px;
+  height: 350px;
+  margin: 50px auto 0;
+  background-color: #fff;
+  border: 5px solid #E658A6;
+  border-radius: 30px;
+  padding: 70px 30px 70px 30px;
+}
+
+.trial .days p {
+  line-height: 2.0;
+}
+
+.trial .days .rectangle03 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  width: 7px;
+  height: 70px;
+  transform: rotate(-30deg);
+  background-color: #E658A6;
+}
+
+.trial .days .rectangle04 {
+position: absolute;
+top: 50px;
+right: 150px;
+width: 7px;
+height: 70px;
+transform: rotate(30deg);
+background-color: #E658A6;
+}
+
+.trial .text p,
+.trial #text02 {
+  width: 800px;
+  margin: 0 auto;
+  line-height: 2.0;
+}
+
+/* ----------  message section ---------- */
+.message {
+  width: 100%;
+  height: 1450px;
+  text-align: center;
+  background-image: url(../img/sakura.jpg);
+  background-size: cover;
+}
+
+.message .text h2 {
+  padding-top: 160px;
+}
+
+.message .text h3 {
+  padding: 30px 0 100px 0;
+} 
+
+.message .text h4 {
+  font-size: 40px;
+  text-decoration: underline;
+} 
+
+.message .sub-text {
+  width: 900px;
+  text-align: left;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 180px;
+  font-weight: bold;
+}
+
+.message .sub-text span {
+  font-size: 32px;
+}
+
+.message .sub-text #pink {
+  font-size: 24px;
+  color: #E658A6;
+}
+
+/* ----------  faq section ---------- */
+
+
+/* ----------  flow section ---------- */
+#flow {
+  width: 100%;
+  position: relative;
+  background-color: #FAE7F0;
+}
+
+#flow .text {
+  text-align: center;
+}
+
+#flow .text h2 {
+  padding-top: 150px;
+}
+
+#flow .text h3 {
+  padding: 30px 0 100px 0;
+}
+
+#flow .supports .support img {
+  width: 380px;
+  height: 180px;
+}
+
+#flow .supports {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+#flow .supports .support {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 55px;
+}
+
+#flow .supports .support + .support {
+  border-top: 5px solid #fff;
+  padding-top: 65px;
+}
+
+#flow .supports .support h3 {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+#flow .supports .talk p {
+  text-align: left;
+}
+
+/* ----------  contact section ---------- */
+
+/* ----------  last-message section ---------- */
+.last-message {
+  width: 100%;
+  height: 2000px;
+  background-image: url(../img/last.jpg);
+  background-size: cover;
+}
+
+.last-message .background {
+  height: 2000px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.last-message .background .text {
+  text-align: center;
+}
+
+.last-message .background .text h2 {
+  padding-top: 150px;
+}
+
+.last-message .background .text h3 {
+  padding: 50px 0 90px 0;
+} 
+
+.last-message .background .desc {
+  width: 1150px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.last-message .background .desc p {
+  text-align: left;
+  line-height: 1.8;
+  padding: 40px;
+}
+
+.last-message .background .desc p span {
+  color: #E658A6;
+  font-weight: bold;
+}
+
+.last-message .background .desc p #life {
+  color: #28293E;
+  font-size: 32px;
+}
+
+/* ---------- footer ---------- */
+footer {
+  background-color: #FBD5EF;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 110px 0 70px 0;
+}
+
+footer .footer-menu {
+  margin-left: 300px;
+}
+
+footer .footer-menu h2 {
+  text-align: left;
+}
+
+footer .footer-menu ul li {
+  text-align: left;
+}
+
+footer .footer-menu ul li + li {
+  margin-top: 20px;
+}
+
+footer .footer-menu ul li a {
+  color: #28293E;
+}
+
+footer h2 {
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+
+footer .sns {
+  padding-bottom: 40px;
+}
+
+footer .sns ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer .policy .sns ul li {
+  width: 40px;
+  height: 40px;
+  background-color: #67BD83;
+  border-radius: 50%;
+}
+
+footer .policy .sns ul li + li {
+  margin-left: 10px;
+}
+
+footer .policy .sns ul li i {
+  padding-top: 9px;
+  font-size: 24px;
+}
+
+footer .desc p + p {
+  margin-top: 5px;
+}
+
+footer small p {
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.7;
+  padding-bottom: 20px;
+}
+
