@@ -160,13 +160,14 @@ header ul #line {
   bottom: 160px;
 }
 
-.sub-message p {
+.sub-message #students {
   width: 250px;
   text-align: center;
   color: #EE57F1;
   background-color: #fff;
   padding: 5px 40px;
   margin-left: 180px;
+  font-size: 16px;
   border-radius: 30px;
 }
 
@@ -528,6 +529,7 @@ header ul #line {
 
 /* ----------  change section ---------- */
 .change {
+  position: relative;
   background-color: #FAE7F0;
   width: 100%;
   height: 880px;
