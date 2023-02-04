@@ -20,7 +20,7 @@ body {
 .decoration {
  width: 100%;
  height: 200px;
- background-image: url(../img/flame.png); 
+ background-image: url(../img/frame01.png); 
  background-size: cover;
  position: absolute;
  top: 0;
@@ -29,7 +29,7 @@ body {
 .decoration02 {
   width: 100%;
   height: 200px;
-  background-image: url(../img/flame6.png); 
+  background-image: url(../img/frame02.png); 
   background-size: cover;
   position: absolute;
   top: 0;
@@ -38,7 +38,16 @@ body {
  .decoration03 {
   width: 100%;
   height: 200px;
-  background-image: url(../img/flame4.png); 
+  background-image: url(../img/frame03.png); 
+  background-size: cover;
+  position: absolute;
+  top: 0;
+ }
+
+ .decoration04 {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/frame04.jpg); 
   background-size: cover;
   position: absolute;
   top: 0;
@@ -108,6 +117,11 @@ header ul #line {
   border: 1px solid #ffffff;
   padding: 10px 25px;
   border-radius: 4px;
+  font-weight: bold;
+}
+
+header ul #line:hover {
+  opacity: 0.7;
 }
 
 /* ---------- hero section ---------- */
@@ -168,6 +182,7 @@ header ul #line {
   margin-left: 180px;
   font-size: 16px;
   border-radius: 30px;
+  font-weight: bold;
 }
 
 .sub-message h5 {
@@ -186,8 +201,13 @@ header ul #line {
   letter-spacing: 3px;
 }
 
+.sub-message h5 span:last-child {
+  margin-right: 5px;
+}
+
 .sub-message h5 #seven {
   font-size: 36px;
+  margin-left: 5px;
 }
 
 .btn {
@@ -206,21 +226,33 @@ header ul #line {
 }
 
 .btn button:hover {
-  opacity: 0.7;
+  border: 5px solid #67BD83;
+  background-color: #fff;
 }
 
 .btn button p {
-  font-size: 28px;
+  font-size: 32px;
+  padding: 3px 0;
+  font-weight: bold;
   color: #fff;
 }
 
+.btn button p:hover {
+  color: #67BD83;
+}
+
 .btn a {
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: bold;
   color: #fff;
-  margin-left: 25px;
-  border: 1px solid #fff;
-  padding: 10px 25px;
+  margin-left: 20px;
+  border: 3px solid #fff;
+  padding: 15px 25px;
   border-radius: 6px;
+}
+
+.btn a:hover {
+  opacity: 0.7;
 }
 
 /* ---------- worry section ---------- */
@@ -380,7 +412,7 @@ header ul #line {
 #service {
   position: relative;
   background-color: #FAE7F0;
-  height: 3000px;
+  height: 2800px;
   text-align: center;
   width: 100%;
 }
@@ -391,7 +423,7 @@ header ul #line {
   margin: 0 40px 0 40px;
 }
 
-#service h2 {
+#service .overview h2 {
   padding-top: 200px;
 }
 
@@ -402,18 +434,24 @@ header ul #line {
 #service .overview p,
 #service .planning p,
 #service #coach {
-  width: 910px;
+  width: 90%;
   margin: 0 auto;
   text-align: left;
 }
 
 #service .planning h2 {
+  padding-top: 86px;
   padding-bottom: 70px;
 } 
 
 #service .schedule {
   width: 100%;
   padding: 50px 0 100px 0;
+}
+
+#service .coaching {
+  width: 95%;
+  margin: 0 auto;
 }
 
 #service .coaching h2 {
@@ -440,33 +478,47 @@ header ul #line {
 
 #service .coaching .check .content p {
   background-color: #fff;
-  height: 180px;
+  height: 220px;
   padding: 20px 20px 10px 20px;
   text-align: left;
 }
 
+#service .coaching .coaching-pic {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto 0;
+}
+
+#service .coaching .coaching-pic .student {
+  width: 57%;
+  box-sizing: border-box;
+}
+
+#service .coaching .coaching-pic .student02 {
+  width: 30%;
+}
+
 #service .coaching .coaching-pic #student {
-  width: 675px;
-  height: 384px;
+  width: 100%;
+  /* height: 384px; */
+  object-fit: contain;
 }
 
 #service .coaching .coaching-pic #time {
-  width: 675px;
-  height: 251px;
+  width: 100%;
+  /* height: 251px; */
   margin-top: 25px;
+  object-fit: contain;
 } 
 
-#service .coaching .coaching-pic #student02 {
-  width: 347px;
-  height: 661px;
-  margin-right: 180px;
-  margin-left: -50px;
+#service .coaching .coaching-pic .student02 {
+  margin-left: 50px;
 }
 
-#service .coaching .coaching-pic {
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
+#service .coaching .coaching-pic #student02 {
+  width: 100%;
+  object-fit: contain;
 }
 
 /* ---------- benefit section ---------- */
@@ -486,6 +538,7 @@ header ul #line {
   width: 100%;
   height: 650px;
   object-fit: cover;
+  
 }
 
 .benefit .overview h3 {
@@ -502,6 +555,10 @@ header ul #line {
   width: 100%;
   height: 250px;
   object-fit: cover;
+}
+
+.benefit .content .position {
+  object-position: top;
 }
 
 .benefit .content .text {
@@ -537,15 +594,10 @@ header ul #line {
   height: 880px;
 }
 
-.change .check-pic img {
-  width: 360px;
-  height: 450px;
-  object-fit: cover;
-}
-
 .changes {
   display: flex;
   padding-top: 250px;
+  justify-content: space-between;
 }
 
 .changes .text {
@@ -590,27 +642,35 @@ header ul #line {
 
 .changes .check-pic {
   display: flex;
-  margin-left: 90px;
+  width: 600px;
+}
+
+.change .check-pic img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
 }
 
 .changes .check-pic .before {
   background-color: #D9D9D9;
+  width: 50%;
   height: 510px;
 }
 
 .changes .check-pic .before h4 {
   color: 28293E;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .changes .check-pic .after {
+  width: 50%;
   background-color: #E658A6;
   height: 510px;
 }
 
 .changes .check-pic .after h4 {
   color: #fff;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 /* ----------  central-cv section ---------- */
@@ -777,6 +837,7 @@ header ul #line {
 }
 
 #price .price-main {
+  width: 100%;
   padding-top: 120px;
   overflow: hidden;
 }
@@ -785,8 +846,7 @@ header ul #line {
 #price .price-main .guide {
   display: flex;
   align-items: center;
-  width: 100%;
-  margin-left: 160px;
+  padding-left: 130px;
   text-align: left;
   gap: 40px;
   padding-bottom: 30px;
@@ -820,7 +880,8 @@ header ul #line {
 
 #price .price-main .supplement {
   width: 100%;
-  margin-left: 160px;
+  padding-left: 160px;
+  overflow: hidden;
 }
 
 #price .price-main .supplement span {
@@ -829,7 +890,7 @@ header ul #line {
 
 #price .price-main .rectangle01 {
   position: absolute;
-  bottom: 260px;
+  bottom: 150px;
   left: 100px;
   width: 20px;
   height: 270px;
@@ -839,7 +900,7 @@ header ul #line {
 
 #price .price-main .rectangle02 {
   position: absolute;
-  bottom: 260px;
+  bottom: 150px;
   right: 100px;
   width: 20px;
   height: 270px;
@@ -856,7 +917,9 @@ header ul #line {
 }
 
 .cost .text p {
-  padding: 60px 0 60px 90px;
+  width: 80%;
+  padding: 60px 0 60px 0;
+  margin: 0 auto;
   text-align: left;
 }
 
@@ -866,7 +929,7 @@ header ul #line {
 }
 
 .cost .cost-table {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -936,12 +999,13 @@ header ul #line {
 }
 
 .cost .year-cost {
-  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .cost .year-cost img {
-  width: 1100px;
-  height: 760px;
+  width: 100%;
+  height: 600px;
   object-fit: contain;
 }
 
@@ -964,14 +1028,22 @@ header ul #line {
   position: relative;
 }
 
+.trial .text {
+  width: 100%;
+}
+
 .trial .text h2 {
   padding-top: 150px;
   padding-bottom: 30px;
 }
 
-.trial p {
+.trial p,
+.trial #text02 {
+  width: 90%;
+  margin: 0 auto;
   padding-top: 80px;
   text-align: left;
+  line-height: 2.0;
 }
 
 .trial p span {
@@ -982,7 +1054,7 @@ header ul #line {
 
 .trial .days {
   position: relative;
-  width: 740px;
+  width: 80%;
   height: 350px;
   margin: 50px auto 0;
   background-color: #fff;
@@ -993,6 +1065,7 @@ header ul #line {
 
 .trial .days p {
   line-height: 2.0;
+  width: 95%;
 }
 
 .trial .days .rectangle03 {
@@ -1015,20 +1088,13 @@ transform: rotate(30deg);
 background-color: #E658A6;
 }
 
-.trial .text p,
-.trial #text02 {
-  width: 800px;
-  margin: 0 auto;
-  line-height: 2.0;
-}
-
 /* ----------  message section ---------- */
 .message {
   width: 100%;
   height: 1450px;
   text-align: center;
   background-image: url(../img/sakura.jpg);
-  background-size: cover;
+  background-size: cover;  
 }
 
 .message .text h2 {
@@ -1045,7 +1111,7 @@ background-color: #E658A6;
 } 
 
 .message .sub-text {
-  width: 900px;
+  width: 85%;
   text-align: left;
   margin: 0 auto;
   padding-top: 80px;
@@ -1097,6 +1163,7 @@ background-color: #E658A6;
 
 #flow .supports .support {
   display: flex;
+  width: 100%;
   gap: 100px;
   padding-bottom: 55px;
 }
@@ -1120,13 +1187,14 @@ background-color: #E658A6;
 /* ----------  last-message section ---------- */
 .last-message {
   width: 100%;
-  height: 2000px;
+  height: 2300px;
   background-image: url(../img/last.jpg);
   background-size: cover;
+  overflow: hidden;
 }
 
 .last-message .background {
-  height: 2000px;
+  height: 2300px;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1143,14 +1211,15 @@ background-color: #E658A6;
 } 
 
 .last-message .background .desc {
-  width: 1150px;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .last-message .background .desc p {
+  width: 90%;
+  margin: 0 auto;
   text-align: left;
   line-height: 1.8;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .last-message .background .desc p span {
@@ -1165,6 +1234,7 @@ background-color: #E658A6;
 
 /* ---------- footer ---------- */
 footer {
+  width: 100%;
   background-color: #FBD5EF;
 }
 
