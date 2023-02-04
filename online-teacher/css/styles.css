@@ -434,7 +434,7 @@ header ul #line:hover {
 #service .overview p,
 #service .planning p,
 #service #coach {
-  width: 90%;
+  width: 65%;
   margin: 0 auto;
   text-align: left;
 }
@@ -850,6 +850,8 @@ header ul #line:hover {
   text-align: left;
   gap: 40px;
   padding-bottom: 30px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 #price .price-main .join h2,
@@ -879,8 +881,10 @@ header ul #line:hover {
 }
 
 #price .price-main .supplement {
-  width: 100%;
+  width: 70%;
+  margin: 0 auto;
   padding-left: 160px;
+  text-align: center;
   overflow: hidden;
 }
 
@@ -890,7 +894,7 @@ header ul #line:hover {
 
 #price .price-main .rectangle01 {
   position: absolute;
-  bottom: 150px;
+  bottom: 270px;
   left: 100px;
   width: 20px;
   height: 270px;
@@ -900,7 +904,7 @@ header ul #line:hover {
 
 #price .price-main .rectangle02 {
   position: absolute;
-  bottom: 150px;
+  bottom: 270px;
   right: 100px;
   width: 20px;
   height: 270px;
