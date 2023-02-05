@@ -1,0 +1,143 @@
+/* ----------  media small screen ---------- */
+@media (max-width: 760px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+/* ----------  header ---------- */
+  header {
+    padding: 15px 20px 15px 20px;
+  }
+
+  header #menu {
+    display: none;
+  }
+
+  header #sp-menu {
+    display: block;
+  }
+
+  header #sp-menu,
+  header #sp-close {
+    color: #fff;
+    font-size: 64px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  header ul li a {
+    font-size: 14px;
+  }
+
+  /* ----------  hero ---------- */
+  .hero {
+    height: 470px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-message {
+    position: absolute;
+    top: 130px;
+  }
+
+  .main-message h3 {
+    font-size: 18px;
+    padding-left: 25px;
+  }
+
+  .main-message h1 {
+    font-size: 24px;
+    width: 85%;
+    padding: 10px 25px 10px 25px;
+    margin: 20px 0 10px 0;
+    letter-spacing: 2px;
+  }
+
+  .main-message h1 span {
+    font-size: 32px;
+  }
+
+  .main-message h2 {
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 7px;
+  }
+
+  .sub-message {
+    position: absolute;
+    bottom: 75px;
+  }
+
+  .sub-message #students {
+    font-size: 8px;
+    margin-left: 70px;
+    width: 140px;
+    padding: 5px 20px;
+  }
+
+  .sub-message h5 {
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 5px 25px;
+    border: 3px solid #fff;
+  }
+
+  .sub-message h5 span {
+    letter-spacing: 1.8px;
+  }
+
+  .sub-message h5 #seven {
+    font-size: 14px;
+    margin-left: 3px;
+  }
+
+  .sub-message h5 span:last-child {
+    margin-right: 3px;
+  }
+
+  .btn {
+    bottom: 20px;
+  }
+
+  .btn button {
+    margin-left: 25px;
+    width: 175px;
+    border: 3px solid #fff;
+  }
+
+  .btn button:hover {
+    border: 3px solid #67BD83;
+    background-color: #fff;
+  }
+
+  .btn button p {
+    font-size: 12px;
+  }
+
+  .btn a {
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 5px 15px;
+  }
+
+
+
+}
