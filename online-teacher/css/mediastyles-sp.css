@@ -25,6 +25,12 @@
     padding: 15px 20px 15px 20px;
   }
 
+  header .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
   header #menu {
     display: none;
   }
@@ -36,8 +42,8 @@
   header #sp-menu,
   header #sp-close {
     color: #fff;
-    font-size: 64px;
-    margin-top: 10px;
+    font-size: 32px;
+    margin-top: 5px;
     cursor: pointer;
   }
 
@@ -47,37 +53,39 @@
 
   /* ----------  hero ---------- */
   .hero {
-    height: 470px;
+    height: 400px;
     background-size: cover;
-    background-position: center;
+    background-image: url(../img/sp-main.jpeg);
+    background-position: left;
   }
 
   .main-message {
     position: absolute;
-    top: 130px;
+    top: 90px;
   }
 
   .main-message h3 {
-    font-size: 18px;
-    padding-left: 25px;
+    font-size: 16px;
+    padding-left: 20px;
   }
 
   .main-message h1 {
-    font-size: 24px;
+    font-size: 18px;
     width: 85%;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 20px 10px 20px;
     margin: 20px 0 10px 0;
     letter-spacing: 2px;
   }
 
   .main-message h1 span {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .main-message h2 {
-    font-size: 28px;
-    line-height: 40px;
-    padding-left: 7px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 10px;
+    letter-spacing: 2px;
   }
 
   .sub-message {
@@ -87,30 +95,30 @@
 
   .sub-message #students {
     font-size: 8px;
-    margin-left: 70px;
+    margin-left: 40px;
     width: 140px;
     padding: 5px 20px;
   }
 
   .sub-message h5 {
     font-size: 10px;
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 10px;
-    padding: 5px 25px;
+    padding: 5px;
     border: 3px solid #fff;
   }
 
   .sub-message h5 span {
-    letter-spacing: 1.8px;
+    letter-spacing: 1.5px;
   }
 
   .sub-message h5 #seven {
     font-size: 14px;
-    margin-left: 3px;
+    margin-left: 2px;
   }
 
   .sub-message h5 span:last-child {
-    margin-right: 3px;
+    margin-right: 2px;
   }
 
   .btn {
@@ -118,8 +126,8 @@
   }
 
   .btn button {
-    margin-left: 25px;
-    width: 175px;
+    margin-left: 10px;
+    width: 140px;
     border: 3px solid #fff;
   }
 
@@ -129,11 +137,11 @@
   }
 
   .btn button p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .btn a {
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 8px;
     padding: 5px 15px;
   }
