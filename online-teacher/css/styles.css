@@ -273,6 +273,7 @@ header ul #line:hover {
 .worry img {
   width: 400px;
   height: 280px;
+  object-fit: cover;
 }
 
 .worry .info {
@@ -285,6 +286,7 @@ header ul #line:hover {
   justify-content: center;
   align-items: center;
   gap: 45px;
+  width: 100%;
 }
 
 .worry .info .desc02 {
@@ -371,6 +373,7 @@ header ul #line:hover {
 .profile img {
   width: 450px;
   height: 450px;
+  object-fit: cover;
 }
 
 .profile h2 {
@@ -537,7 +540,6 @@ header ul #line:hover {
   width: 100%;
   height: 650px;
   object-fit: cover;
-  
 }
 
 .benefit .overview h3 {
@@ -1157,6 +1159,7 @@ background-color: #E658A6;
 #flow .supports .support img {
   width: 380px;
   height: 180px;
+  object-fit: cover;
 }
 
 #flow .supports {

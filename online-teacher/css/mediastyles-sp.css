@@ -1,23 +1,23 @@
 /* ----------  media small screen ---------- */
 @media (max-width: 760px) {
   h1 {
-    font-size: 24px;
-  }
-
-  h2 {
     font-size: 20px;
   }
 
-  h3 {
+  h2 {
     font-size: 18px;
   }
 
-  h4 {
+  h3 {
     font-size: 16px;
   }
 
-  p {
+  h4 {
     font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
   }
 
 /* ----------  header ---------- */
@@ -94,7 +94,7 @@
   }
 
   .sub-message #students {
-    font-size: 8px;
+    font-size: 10px;
     margin-left: 40px;
     width: 140px;
     padding: 5px 20px;
@@ -145,6 +145,789 @@
     margin-left: 8px;
     padding: 5px 15px;
   }
+
+  /* ----------  hero ---------- */
+  .worry {
+    height: 1200px;
+  }
+
+  .worry h1 span {
+    display: inline-block;
+    line-height: 1.5;
+  }
+
+  .worry h3 {
+    line-height: 40px;
+    padding-top: 20px;
+  }
+
+  .worry img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .worry .info {
+    padding-top: 50px;
+  }
+
+  .worry .info .desc01,
+  .worry .info .desc02 {
+    display: block;
+  }
+
+  .worry h1:last-child {
+    padding-top: 50px;
+  }
+
+  /* ---------- about section ---------- */
+  .about {
+    height: 1050px;
+  }
+
+  .about .triangle {
+    left: 40%;
+  }
+
+  /* .about h1 span {
+    display: inline-block;
+    line-height: 1.5;
+  } */
+
+  .about img {
+    width: 95%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .about h1 {
+    padding-top: 100px;
+  }
+  
+  .about h2 {
+    padding: 70px 0 30px 0;
+  }
+
+  .about h3 {
+    padding-bottom: 70px;
+  }
+
+  .about .info {
+    display: block;
+  }
+
+  .about .info .desc p:first-child {
+    width: 100%;
+    padding-top: 50px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .about .info .desc .reason span {
+    margin-left: 10px;
+  }
+
+  .about .info .desc p:last-child {
+    width: 100%;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  /* ---------- profile section ---------- */
+  .profile {
+    height: 1650px;
+  }
+
+  .profile img {
+    width: 300px;    
+    height: 300px;
+  }
+
+  .profile h2 {
+    padding-top: 100px;
+  }
+
+  .profile h3 {
+    padding: 30px 0 60px 0;
+  }
+
+  .profile .info {
+    display: block;
+  }
+
+  .profile .info .desc p {
+    width: 95%;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-left: 12px;
+  }
+
+  .profile .info .desc p span {
+    font-size: 20px;
+  }
+
+  /* ---------- service section ---------- */
+  #service {
+    /* height: 2950px; */
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  #service .planning .schedule img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #service .planning .schedule img + img {
+    padding-top: 30px;
+  }
+
+  #service .overview h2 {
+    padding-top: 100px;
+  }
+
+  #service h3 {
+    padding: 30px 0 50px 0;
+  }
+
+  #service .overview p,
+  #service .planning p,
+  #service #coach {
+    width: 80%;
+  }
+
+  #service .planning h2 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  #service .schedule {
+    width: 100%;
+    padding: 50px 0 50px 0;
+  }
+
+  #service .coaching h2 {
+    padding-bottom: 40px;
+  }
+
+  #service .coaching .check {
+    display: block;
+  }
+
+  #service .coaching .check .content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  #service .coaching .check .content h4 {
+    font-size: 18px;
+  }
+
+  #service .coaching .check .content p {
+    height: 100px;
+    font-size: 14px;
+  }
+
+  #service .coaching .coaching-pic {
+    display: block;
+  }
+
+  #service .coaching .coaching-pic .student {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #service .coaching .coaching-pic .student02 {
+    width: 60%;
+    height: auto;
+    margin: 30px auto 0;
+  }
+
+  /* ---------- benefit section ---------- */
+  .benefit {
+    /* height: 3800px; */
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .benefit .overview {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .benefit .overview img {
+    height: auto;
+  }
+
+  .benefit .overview h3 {
+    padding: 40px 0;
+  }
+
+  .benefit .contents {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .benefit .content {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+  }
+
+  .benefit .content + .content {
+    margin-top: 30px;
+  }
+
+  .benefit .content img {
+    height: 150px;
+  }
+
+  .benefit .content .text {
+    height: 168px;
+    padding: 15px;
+  }
+
+  .benefit .content .text h5 {
+    font-size: 14px;
+  }
+
+  .benefit .content .text p {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  /* ----------  change section ---------- */
+  .change {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .change .decoration04 {
+    height: 90px;
+  }
+
+  .changes {
+    display: block;
+    padding-top: 100px;
+  }
+
+  .changes .text h5:last-child {
+    width: 100%;
+  }
+
+  .changes .check {
+    width: 90%;
+  }
+
+  .changes .check .check-text p {
+    font-size: 14px;
+  }
+
+  .changes .check-pic {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .changes .check-pic .before {
+    height: 230px;
+  }
+
+  .changes .check-pic .before h4 {
+    padding-top: 5px;
+  }
+
+  .changes .check-pic .after {
+    height: 230px;
+  }
+
+  .changes .check-pic .after h4 {
+    padding-top: 5px;
+  }
+
+  /* ----------  central-cv section ---------- */
+  .central-cv {
+    height: 650px;
+  }
+
+  .central-cv #icon {
+    top: -50px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .central-cv .cv {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .central-cv .cv .text h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .central-cv .cv .text h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .central-cv .cv .btn {
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 25%;
+  }
+
+  .central-cv .cv .btn .tel {
+    display: block;
+  }
+
+  .central-cv .cv .btn p,
+  .central-cv .cv .btn a {
+    font-size: 16px;
+  }
+
+  .central-cv .cv .btn .tel a {
+    display: block;
+    width: 30%;
+    text-align: center;
+    padding-top: 5px;
+    margin: 20px 30px 0 55px;
+  }
+
+  .central-cv .cv .btn .tel p {
+    margin: 20px 0 0 -30px;
+    font-size: 14px;
+  }
+
+  .central-cv .cv .image {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .central-cv .cv .image img {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+  }
+
+  /* ----------  customer-voice section ---------- */
+  .customer-voice {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .customer-voice .text h2 {
+    padding-top: 100px;
+  }
+
+  .customer-voice .voices {
+    display: block;
+  }
+
+  .customer-voice .voices h3 {
+    padding-bottom: 30px;
+  }
+
+  .customer-voice .voices h4 {
+    font-size: 18px;
+  }
+
+  .customer-voice .voices p {
+    font-size: 14px;
+  }
+
+  .customer-voice .voices .voice01,
+  .customer-voice .voices .voice02 {
+    padding: 30px 30px 10px 30px;
+  }
+
+  .customer-voice .voices .student01,
+  .customer-voice .voices .student02,
+  .customer-voice .voices .student03 {
+    padding-bottom: 30px;
+    gap: 30px;
+  }
+
+  .customer-voice .voices .voice02 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* ----------  price section ---------- */
+  #price {
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  #price .text {
+    padding-top: 100px;
+  }
+
+  #price .text h3 {
+    padding: 30px 0 50px 0;
+  }
+
+  #price .price-text .main-text {
+    width: 100%;
+    text-align: left;
+    line-height: 1.5;
+    padding: 0;
+  }
+
+  #price .price-text .main-text .one,
+  #price .price-text .main-text .two,
+  #price .price-text .main-text .three {
+  font-size: 18px;
+  }
+
+  #price .price-main {
+    padding-top: 50px;
+  }
+
+  #price .price-main .join,
+  #price .price-main .guide {
+    display: block;
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  #price .price-main .guide {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  #price .price-main .join h2,
+  #price .price-main .guide h2,
+  #price .price-main .supplement h2 {
+    font-size: 20px;
+  }
+
+  #price .price-main .join p,
+  #price .price-main .guide p {
+    font-size: 20px;
+  }
+
+  #price .price-main .join p span,
+  #price .price-main .guide p span {
+    font-size: 18px;
+  }
+
+  #price .price-main .guide p span:last-child {
+    font-size: 15px;
+  }
+
+  #price .price-main .supplement {
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  #price .price-main .supplement span {
+    font-size: 14px;
+  }
+
+  #price .price-main .rectangle01 {
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    width: 10px;
+    height: 200px;
+    transform: rotate(-15deg);
+    background-color: #E658A6;
+  }
+
+  #price .price-main .rectangle02 {
+    position: absolute;
+    bottom: 90px;
+    right: 50px;
+    width: 10px;
+    height: 200px;
+    transform: rotate(15deg);
+    background-color: #E658A6;
+  }
+
+  /* ----------  cost section ---------- */
+  .cost {
+    padding-top: 100px;
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  .cost .text p {
+    width:90%;
+    padding: 30px 0 30px 0;
+  }
+
+  .cost .cost-table {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .cost .cost-table table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 4px;
+  }
+
+  .cost .cost-table table td {
+    font-size: 4px;
+  }
+
+  .cost .cost-table table th span {
+    font-size: 8px;
+  }
+
+
+.cost .cost-table table .head #emp01 {
+  border-top: 5px solid #E658A6;
+  border-right: 5px solid #E658A6;
+  border-left: 5px solid #E658A6;
+}
+
+.cost .cost-table table .first #emp02,
+.cost .cost-table table .second #emp03,
+.cost .cost-table table .third #emp04,
+.cost .cost-table table .fourth #emp05 {
+  border-right: 5px solid #E658A6;
+  border-left: 5px solid #E658A6;
+}
+
+.cost .cost-table table .fifth #emp06 {
+  border-right: 5px solid #E658A6;
+  border-left: 5px solid #E658A6;
+  border-bottom: 5px solid #E658A6;
+}
+
+.cost .cost-table table .fifth {
+  border: 5px solid #67BD83;
+}
+
+.cost .cost-table #table-text {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.cost .year-cost {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cost .year-cost img {
+  width: 100%;
+  height: 400px;
+}
+
+.cost .year-cost p {
+  padding: 0;
+  font-size: 18px;
+}
+
+.cost .year-cost p span {
+  font-size: 20px;
+}
+
+/* ----------  trial section ---------- */
+.trial {
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.trial .text h2 {
+  padding-top: 100px;
+}
+
+.trial p,
+.trial #text02 {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.trial p span {
+  font-size: 18px;
+}
+
+.trial .days {
+  width: 90%;
+  height: 200px;
+  border: 3px solid #E658A6;
+  padding: 30px 15px 30px 15px;
+}
+
+.trial .days .rectangle03 {
+  position: absolute;
+  top: 13px;
+  left: 50px;
+  width: 5px;
+  height: 50px;
+  transform: rotate(-20deg);
+  background-color: #E658A6;
+}
+
+.trial .days .rectangle04 {
+  position: absolute;
+  top: 13px;
+  right: 50px;
+  width: 5px;
+  height: 50px;
+  transform: rotate(20deg);
+  background-color: #E658A6;
+}
+
+/* ----------  message section ---------- */
+.message {
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.message .text h2 {
+  padding-top: 100px;
+}
+
+.message .text h3 {
+  padding: 30px 0 50px 0;
+} 
+
+.message .text h4 {
+  font-size: 24px;
+} 
+
+.message .text h4 span {
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+.message .sub-text {
+  width: 85%;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.message .sub-text span {
+  font-size: 20px;
+}
+
+.message .sub-text #pink {
+  font-size: 14px;
+}
+
+/* ----------  flow section ---------- */
+#flow {
+  height: auto;
+  padding-bottom: 100px;
+}
+
+#flow .text h2 {
+  padding-top: 100px;
+}
+
+#flow .text h3 {
+  padding: 30px 0 50px 0;
+}
+
+#flow .supports {
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#flow .supports .support img {
+  width: 100%;
+  height: 150px;
+}
+
+#flow .supports .support {
+  display: block;
+  padding-bottom: 30px;
+}
+
+#flow .supports .support + .support {
+  padding-top: 35px;
+}
+
+#flow .supports .support h3 {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* ----------  last-message section ---------- */
+.last-message {
+  height: 1100px;
+  background-position: center;
+}
+
+.last-message .background {
+  height: 1100px;
+}
+
+.last-message .background .text h2 {
+  padding-top: 100px;
+}
+
+.last-message .background .text h3 {
+  padding: 30px 0 50px 0;
+} 
+
+.last-message .background .desc p {
+  line-height: 1.6;
+  padding: 20px 0;
+}
+
+.last-message .background .desc p #life {
+  font-size: 18px;
+}
+
+/* ---------- footer ---------- */
+footer {
+  padding-bottom: 50px;
+}
+
+footer .footer {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+}
+
+footer .footer-menu {
+  margin-left: 0;
+}
+
+footer .footer-menu ul li + li {
+  margin-top: 20px;
+}
+
+footer h2 {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+footer .sns {
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer small p {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer .sp-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
 
 
 
