@@ -14,7 +14,7 @@ body {
 .decoration {
  width: 100%;
  height: 200px;
- background-image: url(../img/frame01.png); 
+ background-image: url(../images/frame01.jpg); 
  background-size: cover;
  position: absolute;
  top: 0;
@@ -23,7 +23,7 @@ body {
 .decoration02 {
   width: 100%;
   height: 200px;
-  background-image: url(../img/frame02.png); 
+  background-image: url(../images/frame02.jpg); 
   background-size: cover;
   position: absolute;
   top: 0;
@@ -32,7 +32,7 @@ body {
  .decoration03 {
   width: 100%;
   height: 200px;
-  background-image: url(../img/frame03.png); 
+  background-image: url(../images/frame03.jpg); 
   background-size: cover;
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@ body {
  .decoration04 {
   width: 100%;
   height: 200px;
-  background-image: url(../img/frame04.jpg); 
+  background-image: url(../images/frame04.jpg); 
   background-size: cover;
   position: absolute;
   top: 0;
@@ -130,7 +130,7 @@ header ul #line:hover {
   box-sizing: border-box;
   margin: 0 auto;
   height: 865px;
-  background-image: url(../img/メイン画像.jpg);
+  background-image: url(../images/main.jpg);
   background-size: cover;
   background-position: left;
   position: relative;
@@ -259,7 +259,9 @@ header ul #line:hover {
 .worry {
   width: 100%;
   position: relative;
-  height: 1000px;
+  /* height: 1000px; */
+  height: auto;
+  padding-bottom: 100px;
 }
 
 .worry h1 {
@@ -298,7 +300,8 @@ header ul #line:hover {
 .about {
   width: 100%;
   background-color: #FAE7F0;
-  height: 950px;
+  height: auto;
+  padding-bottom: 150px;
   position: relative;
   overflow: hidden;
 }
@@ -335,6 +338,7 @@ header ul #line:hover {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
+  margin: 0 auto;
 }
 
 .about .info .desc {
@@ -366,11 +370,16 @@ header ul #line:hover {
 /* ---------- profile section ---------- */
 .profile {
   position: relative;
-  height: 1500px;
+  height: auto;
   width: 100%;
+  padding-bottom: 150px;
 }
 
-.profile img {
+.profile #sp-profile {
+  display: none;
+}
+
+.profile #pc-profile {
   width: 450px;
   height: 450px;
   object-fit: cover;
@@ -399,7 +408,7 @@ header ul #line:hover {
   text-align: left;
   font-weight: bold;
   font-size: 20px;
-  padding-left: 50px;
+  padding-left: 70px;
 }
 
 .profile .info .desc p:last-child {
@@ -416,9 +425,10 @@ header ul #line:hover {
 #service {
   position: relative;
   background-color: #FAE7F0;
-  height: 2800px;
+  height: auto;
   text-align: center;
   width: 100%;
+  padding-bottom: 150px;
 }
 
 #service .planning .schedule img {
@@ -527,7 +537,8 @@ header ul #line:hover {
 .benefit {
   width: 100%;
   position: relative;
-  height: 3700px;
+  height: auto;
+  padding-bottom: 150px;
 }
 
 .benefit .overview {
@@ -592,7 +603,8 @@ header ul #line:hover {
   position: relative;
   background-color: #FAE7F0;
   width: 100%;
-  height: 880px;
+  height: auto;
+  padding-bottom: 150px;
 }
 
 .changes {
@@ -676,7 +688,7 @@ header ul #line:hover {
 
 /* ----------  central-cv section ---------- */
 .central-cv {
-  background-image: url(../img/pink.png);
+  background-image: url(../images/pink.jpg);
   background-size: cover;
   width: 100%;
   height: 350px;
@@ -751,7 +763,8 @@ header ul #line:hover {
 .customer-voice {
   width: 100%;
   position: relative;
-  height: 850px;
+  height: auto;
+  padding-bottom: 150px;
 }
 
 .customer-voice .text {
@@ -1029,9 +1042,10 @@ header ul #line:hover {
 /* ----------  trial section ---------- */
 .trial {
   width: 100%;
-  height: 1500px;
+  height: auto;
   background-color: #FAE7F0;
   position: relative;
+  padding-bottom: 150px;
 }
 
 .trial .text {
@@ -1097,10 +1111,11 @@ background-color: #E658A6;
 /* ----------  message section ---------- */
 .message {
   width: 100%;
-  height: 1450px;
+  height: auto;
   text-align: center;
-  background-image: url(../img/sakura.jpg);
+  background-image: url(../images/sakura.jpg);
   background-size: cover;  
+  padding-bottom: 100px;
 }
 
 .message .text h2 {
@@ -1125,6 +1140,11 @@ background-color: #E658A6;
   font-weight: bold;
 }
 
+.message .sub-text p {
+  width: 100%;
+  margin-left: 150px;
+}
+
 .message .sub-text span {
   font-size: 32px;
 }
@@ -1142,6 +1162,8 @@ background-color: #E658A6;
   width: 100%;
   position: relative;
   background-color: #FAE7F0;
+  height: auto;
+  padding-bottom: 150px;
 }
 
 #flow .text {
@@ -1158,7 +1180,7 @@ background-color: #E658A6;
 
 #flow .supports .support img {
   width: 380px;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -1194,14 +1216,14 @@ background-color: #E658A6;
 /* ----------  last-message section ---------- */
 .last-message {
   width: 100%;
-  height: 2300px;
-  background-image: url(../img/last.jpg);
+  height: 2100px;
+  background-image: url(../images/last.jpg);
   background-size: cover;
   overflow: hidden;
 }
 
 .last-message .background {
-  height: 2300px;
+  height: 2100px;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1251,12 +1273,20 @@ footer .footer {
   padding: 110px 0 70px 0;
 }
 
+footer .footer .sp-footer {
+  display: flex;
+}
+
 footer .footer-menu {
-  margin-left: 300px;
+  margin-right: 200px;
 }
 
 footer .footer-menu h2 {
   text-align: left;
+}
+
+footer .footer-menu ul {
+  width: 100%;
 }
 
 footer .footer-menu ul li {
