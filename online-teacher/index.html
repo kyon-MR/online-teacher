@@ -14,7 +14,7 @@
 </head>
 <body>
   <header>
-    <div class="logo"><img src="./images/logo-header.jpg" alt="ロゴ"></div>
+    <div class="logo" style="z-index: 3"><img src="./images/logo-header.jpg" alt="ロゴ"></div>
     <nav id="menu">
       <ul>
         <li><a href="#service">サービス</a></li>
@@ -471,7 +471,7 @@
     </div>
   </section>
 
-  <section id="faq" style="display: none">
+  <section id="faq" style="opacity: 0">
     <!-- <div class="decoration03"></div> -->
     <div>
       <h2>FAQ</h2>
@@ -525,7 +525,7 @@
     </div>
   </section>
 
-  <section id="contact" style="display: none">
+  <section id="contact" style="opacity: 0">
     <!-- <div class="decoration03"></div> -->
     <div class="text">
       <h2>CONTACT</h2>
@@ -604,15 +604,6 @@
     <small><p>Copyright © 2022 XXXX. All Rights Reserved.</p></small>
   </footer>
   
-  <script>
-    $(function(){
-      $("li a").click(function() {
-        let href = $(this).attr("href");
-        let pos = $(href).offset().top;
-        $("body, html").animate({scrollTop: pos}, 500);
-        return false;
-      });
-    });
-  </script>
+  <script src="js/main.js"></script>
 </body>
 </html>
