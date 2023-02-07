@@ -141,6 +141,11 @@ header #sp-close {
   position: relative;
 }
 
+header #menu {
+  display: block;
+  z-index: 3;
+}
+
 .main-message {
   position: absolute;
   top: 150px;
