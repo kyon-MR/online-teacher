@@ -36,7 +36,7 @@
     z-index: 3
   }
 
-  header #menu.show {
+  .show {
     display: block;
   }
 
@@ -69,6 +69,10 @@
   }
 
   header #modal {
+    display: none;
+  }
+
+  .mdShow {
     width: 100%;
     height: 400px;
     background-color: #E658A6;

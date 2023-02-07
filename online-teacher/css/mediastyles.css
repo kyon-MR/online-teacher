@@ -85,13 +85,12 @@
     padding: 10px 20px;
   }
 
-  header #menu,
-  header #sp-close {
+  header #menu {
     display: none;
     z-index: 3;
   }
 
-  header #menu.show {
+  .show {
     display: block;
   }
 
@@ -128,6 +127,10 @@
   }
 
   header #modal {
+    display: none;
+  }
+
+  .mdShow {
     width: 100%;
     height: 650px;
     background-color: #E658A6;
