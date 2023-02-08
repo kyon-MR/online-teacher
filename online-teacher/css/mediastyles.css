@@ -182,9 +182,9 @@
    }
 
    .worry .info .desc01,
-.worry .info .desc02 {
-  display: block;
-}
+   .worry .info .desc02 {
+    display: block;
+  }
 
  /* ---------- about section ---------- */
    .about {

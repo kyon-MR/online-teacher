@@ -233,7 +233,8 @@
   }
 
   .about .triangle {
-    left: 40%;
+    top: -85px;
+    left: calc((100% - 115px)/2);
   }
 
   .about h1 span {
@@ -764,11 +765,11 @@
     width: 15%;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 4px;
+    font-size: 8px;
   }
 
   .cost .cost-table table td {
-    font-size: 4px;
+    font-size: 8px;
   }
 
   .cost .cost-table table th span {
