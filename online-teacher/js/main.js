@@ -11,8 +11,12 @@
     $(window).scroll(function() {
       if($(this).scrollTop() > 50) {
         $('header').addClass("bgColor");
+        $('header img').addClass("logoShow");
+        $('header nav ul').addClass("ulShow");
       } else {
         $('header').removeClass("bgColor");
+        $('header img').removeClass("logoShow");
+        $('header nav ul').removeClass("ulShow");
       }
     });
 
