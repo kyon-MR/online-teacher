@@ -290,7 +290,6 @@ header #menu {
 .worry {
   width: 100%;
   position: relative;
-  /* height: 1000px; */
   height: auto;
   padding-bottom: 100px;
 }
@@ -1300,6 +1299,11 @@ header #menu {
 footer {
   width: 100%;
   background-color: #FBD5EF;
+}
+
+footer #footer-logo {
+  width: 150px;
+  height: 150px;
 }
 
 footer .footer {

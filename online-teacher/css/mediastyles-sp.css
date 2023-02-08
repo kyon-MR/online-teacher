@@ -20,6 +20,12 @@
     font-size: 12px;
   }
 
+  .container {
+    width: calc(100% - 50px);
+    text-align: center;
+    margin: 0 auto;
+  }
+
 /* ----------  header ---------- */
   header {
     padding: 15px 20px 15px 20px;
@@ -475,7 +481,7 @@
   }
 
   .changes .check {
-    width: 100%;
+    width: 80%;
   }
 
   .changes .check .check-text p {
@@ -525,9 +531,14 @@
   }
 
   .central-cv .cv .text h1 {
+    padding-top: 20px;
     text-align: center;
     font-size: 16px;
-    line-height: 1.5;
+  }
+
+  .central-cv .cv .text h1 span {
+    display: inline-block;
+    line-height: 1.6;
   }
 
   .central-cv .cv .text h2 {
@@ -540,7 +551,7 @@
     display: block;
     position: absolute;
     top: 165px;
-    left: 25%;
+    left: calc((100% - 230px)/2);
   }
 
   .central-cv .cv .btn .tel {
@@ -663,7 +674,7 @@
   #price .price-main .join,
   #price .price-main .guide {
     display: block;
-    padding-left: 15px;
+    padding-left: 55px;
     width: 100%;
   }
 
@@ -679,21 +690,21 @@
   #price .price-main .join h2,
   #price .price-main .guide h2,
   #price .price-main .supplement h2 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #price .price-main .join p,
   #price .price-main .guide p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #price .price-main .join p span,
   #price .price-main .guide p span {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #price .price-main .guide p span:last-child {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #price .price-main .supplement {
@@ -703,7 +714,7 @@
   }
 
   #price .price-main .supplement span {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #price .price-main .rectangle01 {
@@ -976,6 +987,11 @@
 /* ---------- footer ---------- */
 footer {
   padding-bottom: 50px;
+}
+
+footer #footer-logo {
+  width: 100px;
+  height: 100px;
 }
 
 footer .footer {

@@ -24,6 +24,12 @@
     font-size: 14px;
   }
 
+  .container {
+    width: calc(100% - 100px);
+    text-align: center;
+    margin: 0 auto;
+  }
+
  /* ---------- hero section ---------- */
   .hero {
     height: 750px;
@@ -147,6 +153,7 @@
    }
 
    .about .triangle {
+    top: -80px;
     left: 45%;
    }
 
