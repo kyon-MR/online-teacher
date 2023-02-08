@@ -23,8 +23,9 @@
     $('header #sp-menu').click(function() {
       $(this).hide();
       $('header #menu').show().addClass("show");
-      $('header #modal').addClass("mdShow").animate({opacity: 1}, 500).show();
+      $('header #modal').addClass("mdShow").show();
       $('header #sp-close').show();
+      return;
     });
 
     $('header #sp-close').click(function() {
@@ -32,6 +33,7 @@
       $('header #menu').hide();
       $('header #modal').removeClass("mdShow").hide();
       $('header #sp-menu').show();
+      return;
     });
 
 

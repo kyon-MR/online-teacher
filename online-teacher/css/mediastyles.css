@@ -1,23 +1,23 @@
 /* ----------  media medium screen ---------- */
 @media (max-width: 1100px) {
   h1 {
-    font-size: 36px;
-  }
-
-  h2 {
     font-size: 28px;
   }
 
-  h3 {
+  h2 {
     font-size: 24px;
   }
 
+  h3 {
+    font-size: 20px;
+  }
+
   h4 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   header ul li a {
@@ -32,44 +32,53 @@
 
  /* ---------- hero section ---------- */
   .hero {
-    height: 750px;
+    height: 650px;
   }
 
   .main-message h3 {
-    font-size: 28px;
+    padding-left: 25px;
+    font-size: 24px;
   }
 
   .main-message h1 {
-    font-size: 48px;
-    width: 95%;
-    margin: 35px 0 30px 0;
+    font-size: 32px;
+    width: 90%;
+    padding: 10px 15px 10px 20px;
+    margin: 25px 0 20px 0;
   }
 
   .main-message h1 span {
-    font-size: 64px;
+    font-size: 48px;
   }
 
   .main-message h2 {
-    font-size: 54px;
-    line-height: 75px;
+    font-size: 36px;
+    line-height: 55px;
   }
 
   .sub-message {
     position: absolute;
-    bottom: 135px;
+    bottom: 120px;
   }
 
   .sub-message #students {
-    margin-left: 120px;
+    padding: 5px 30px;
+    margin-left: 20px;
   }
 
   .sub-message h5 {
-    font-size: 20px;
-    margin-left: 50px;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-left: 20px;
+  }
+
+  .sub-message h5 span:last-child {
+    margin-right: 3px;
   }
 
   .sub-message h5 #seven {
-    font-size: 32px;
+    margin-left: 3px;
+    font-size: 24px;
   }
 
   .btn {
@@ -78,17 +87,18 @@
   }
 
   .btn button {
-    margin-left: 35px;
-    width: 360px;
+    margin-left: 15px;
+    width: 270px;
   }
 
   .btn button p {
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .btn a {
-    font-size: 26px;
+    font-size: 20px;
     padding: 10px 20px;
+    margin-left: 5px;
   }
 
   header #menu {
@@ -146,81 +156,159 @@
     z-index: 2;
   }
 
+ /* ---------- worry section ---------- */
+   .worry {
+    height: auto;
+    padding-bottom: 70px;
+   }
+
+   .worry h1 {
+    font-size: 24px;
+   }
+
+   .worry h3 {
+    padding-top: 30px;
+    line-height: 50px;
+  }
+
+  .worry .info {
+    padding-top: 50px;
+  }
+
+   .woory img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+   }
+
+   .worry .info .desc01,
+.worry .info .desc02 {
+  display: block;
+}
+
  /* ---------- about section ---------- */
    .about {
     height: auto;
-    padding-bottom: 120px;
+    padding-bottom: 70px;
    }
 
    .about .triangle {
     top: -80px;
-    left: 45%;
+    left: calc((100% - 100px)/2);
    }
 
-   .about .info {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 90%;
-    margin: 0 auto;
-    gap: 30px;
+   .about h1 span {
+    display: inline-block;
+    line-height: 1.5;
   }
 
-   .about img {
-    width: 350px;
-    height: 320px;
-   }
+  .about img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+  }
 
-   .about .info .desc p:first-child {
+  .about h1 {
     font-size: 24px;
+    padding-top: 80px;
   }
   
+  .about h2 {
+    padding: 40px 0 30px 0;
+  }
+
+  .about h3 {
+    padding-bottom: 50px;
+  }
+
+  .about .info {
+    display: block;
+  }
+
+  .about .info .desc p:first-child {
+    width: 100%;
+    padding-top: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .about .info .desc .reason span {
+    margin-left: 10px;
+  }
+
   .about .info .desc p:last-child {
-    font-size: 16px;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 10px;
   }
 
   /* ---------- profile section ---------- */
    .profile {
     height: auto;
-    padding-bottom: 120px;
+    padding-bottom: 70px;
    }
 
    .profile h2 {
-    padding-top: 150px;
+    padding-top: 100px;
    }
 
-   .profile img {
+   .profile h3 {
+    padding: 30px 0 50px 0;
+  }
+
+   .profile #pc-profile {
     width: 400px;
     height: 400px;
+    object-fit: cover;
+  }
+
+  .profile .info {
+    display: block;
   }
 
   .profile .info .desc p {
     width: 95%;
     font-size: 18px;
+    padding-top: 50px;
+    padding-left: 12px;
   }
 
   .profile .info .desc p span {
-    font-size: 26px;
+    font-size: 20px;
   }
 
 /* ---------- service section ---------- */
   #service {
     height: auto;
-    padding-bottom: 120px;
+    padding-bottom: 70px;
   }
 
   #service .overview h2 {
-    padding-top: 150px;
+    padding-top: 100px;
+  }
+
+  #service h3 {
+    padding: 30px 0 50px 0;
   }
 
   #service .planning .schedule img {
-    width: 350px;
-    height: 350px;
+    width: 70%;
+    height: auto;
+    object-fit: fill;
+  }
+
+  #service .planning .schedule img + img {
+    padding-top: 40px;
   }
 
   #service .overview p,
   #service .planning p,
   #service #coach {
-    width: 75%;
+    width: 55%;
+  }
+
+  #service .coaching .check {
+    gap: 20px;
   }
 
   #service .coaching .check .content {
@@ -228,25 +316,39 @@
   }
 
   #service .coaching .check .content p {
-    height: 180px;
+    height: 130px;
+    font-size: 13px;
+  }
+
+  #service .coaching .check .content h4 {
+    font-size: 14px;
+  }
+
+  #service .coaching .coaching-pic {
+    margin: 50px auto 0;
   }
 
 /* ---------- benefit section ---------- */
 .benefit {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 .benefit .overview {
-  padding-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
 
 .benefit .overview img {
-  height: 450px;
+  height: 350px;
+}
+
+.benefit .overview h3 {
+  padding: 50px 0 50px 0;
 }
 
 .benefit .content {
-  width: 300px;
+  width: calc((100% - 80px)/2);
   height: auto;
   background-color: #fff;
 }
@@ -262,6 +364,7 @@
 
 .benefit .content .text h5 {
   font-size: 14px;
+  line-height: 1.4;
 }
 
 .benefit .content .text p {
@@ -269,17 +372,21 @@
 }
 
 .benefit .contents {
-  gap: 40px;
+  gap: 30px;
 }
 
 /* ---------- change section ---------- */
 .change {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
+}
+
+.change .decoration04 {
+  height: 90px;
 }
 
 .changes {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .changes .text h5 {
@@ -287,7 +394,7 @@
 }
 
 .changes .text h5:last-child {
-  width: 390px;
+  width: 370px;
 }
 
 .changes .check {
@@ -336,6 +443,10 @@
 }
 
 /* ---------- central-cv section ---------- */
+.central-cv {
+  height: 300px;
+}
+
 .central-cv #icon {
   top: -50px;
   left: 50px;
@@ -344,11 +455,22 @@
 }
 
 .central-cv .cv .text h1 {
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 1.4;
+  padding: 20px 0 30px 0;
+  /* width: 300px; */
 }
 
 .central-cv .cv .text h2 {
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+  padding-top: 80px;
+  /* width: 300px; */
+}
+
+.central-cv .cv .text h1 span {
+  display: inline-block;
+  line-height: 1.6;
 }
 
 .central-cv .cv .btn button {
@@ -366,24 +488,28 @@
 }
 
 .central-cv .cv .image img {
-  width: 250px;
-  height: 200px;
-  margin-top: -20px;
+  width: 35%;
+  height: auto;
+  margin-top: 0;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  object-fit: cover;
 } 
 
 /* ---------- customer-voice section ---------- */
 .customer-voice {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 .customer-voice .voices {
-  width: calc((100% - 50px)/2);
+  width: 70%;
   flex-wrap: wrap;
 }
 
 .customer-voice .text h2 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .customer-voice .voices .voice01,
@@ -392,7 +518,7 @@
 }
 
 .customer-voice .voices h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .customer-voice .voices p {
@@ -400,8 +526,8 @@
 }
 
 .customer-voice .voices .student01,
-  .customer-voice .voices .student02,
-  .customer-voice .voices .student03 {
+.customer-voice .voices .student02,
+.customer-voice .voices .student03 {
     padding-bottom: 40px;
     gap: 40px;
   }
@@ -409,65 +535,81 @@
 /* ---------- price section ---------- */
 #price {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 
 #price .text {
-  padding-top: 150px;
+  padding-top: 100px;
+}
+
+#price .price-main {
+  padding-top: 50px;
 }
 
 #price .price-text .main-text .one,
 #price .price-text .main-text .two,
 #price .price-text .main-text .three {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 #price .price-main .join,
 #price .price-main .guide {
   width: 90%;
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 #price .price-main .join h2,
 #price .price-main .guide h2,
 #price .price-main .supplement h2 {
-  font-size: 32px;
+  font-size: 20px;
 }
 
 #price .price-main .join p,
 #price .price-main .guide p {
-  font-size: 32px;
+  font-size: 20px;
 }
 
 #price .price-main .join p span,
 #price .price-main .guide p span {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+#price .price-main .guide p span:last-child {
+  font-size: 14px;
 }
 
 #price .price-main .supplement {
   width: 90%;
-  padding-left: 180px;
+  padding-left: 0;
+  text-align: center;
 }
 
 #price .price-main .supplement span {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #price .price-main .rectangle01 {
-  bottom: 100px;
-  width: 15px;
-  height: 220px;
+  bottom: 60px;
+  left: 50px;
+  width: 10px;
+  height: 160px;
 }
 
 #price .price-main .rectangle02 {
-  bottom: 100px;
-  width: 15px;
-  height: 220px;
+  bottom: 60px;
+  right: 50px;
+  width: 10px;
+  height: 160px;
 }
 
 /* ----------  cost section ---------- */
+.cost {
+  padding-top: 100px;
+}
+
 .cost .text p {
   width: 80%;
+  padding: 50px 0 50px 0;
 }
 
 .cost .cost-table {
@@ -479,11 +621,12 @@
 }
 
 .cost .year-cost p {
-  font-size: 32px;
+  font-size: 24px;
+  padding: 50px 0 50px 0;
 }
 
 .cost .year-cost p span {
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .cost .head #online {
@@ -502,26 +645,32 @@
 /* ----------  trial section ---------- */
 .trial {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
+}
+
+.trial .text h2 {
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 
 .trial p,
 .trial #text02 {
   width: 65%;
+  padding-top: 50px;
 }
 
 .trial p span {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .trial .days {
-  width: 65%;
-  height: 350px;
+  width: 75%;
+  height: auto;
   padding: 60px 20px 60px 20px;
 }
 
 .trial .days h2 span {
-  font-size: 36px;
+  font-size: 28px;
   margin-right: 10px;
   margin-left: 10px;
   vertical-align: middle;
@@ -531,12 +680,22 @@
 /* ----------  message section ---------- */
 .message {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
   background-position: center;
 }
 
+.message .text h2 {
+  padding-top: 100px;
+}
+
 .message .text h4 {
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.message .text h4 span {
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: underline;
 }
 
 .message .sub-text {
@@ -544,7 +703,7 @@
 }
 
 .message .sub-text span {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .message .sub-text #pink {
@@ -554,18 +713,18 @@
 /* ----------  flow section ---------- */
 .flow {
   height: auto;
-  padding-bottom: 120px;
+  padding-bottom: 70px;
 }
 #flow .text h2 {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 #flow .text h3 {
-  padding: 30px 0 100px 0;
+  padding: 30px 0 50px 0;
 }
 
 #flow .supports {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
   padding: 0;
 }
@@ -591,18 +750,40 @@
 }
 
 /* ----------  last-message section ---------- */
-.last-message,
+.last-message {
+  height: auto;
+  margin-bottom: 70px;
+}
+
 .last-message .background {
-  height: 2000px;
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.last-message .background .text h2 {
+  padding-top: 100px;
 }
 
 .last-message .background .desc {
   width: 80%;
 }
 
-/* ---------- footer ---------- */
-footer h2 {
+.last-message .background .desc p #life {
   font-size: 20px;
+}
+
+/* ---------- footer ---------- */
+footer .footer {
+  padding: 70px 0 70px 0;
+}
+
+footer #footer-logo {
+  width: 120px;
+  height: 120px;
+}
+
+footer  h2 {
+  font-size: 16px;
 }
 
 footer p {
@@ -625,6 +806,7 @@ footer .policy .sns ul li {
 
 footer .policy .sns ul li i {
   font-size: 18px;
+  padding-left: 1px;
 }
 
 footer .desc p + p {
@@ -632,7 +814,7 @@ footer .desc p + p {
 }
 
 footer small p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 }
