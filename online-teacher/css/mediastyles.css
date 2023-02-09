@@ -712,7 +712,12 @@
 }
 
 .message .sub-text {
-  width: 70%;
+  width: 60%;
+}
+
+.message .container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .message .sub-text span {

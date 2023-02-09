@@ -1149,7 +1149,8 @@ header #menu {
   height: auto;
   text-align: center;
   background-image: url(../images/sakura.jpg);
-  background-size: cover;  
+  background-size: cover; 
+  background-position: center; 
   padding-bottom: 100px;
 }
 
@@ -1166,8 +1167,13 @@ header #menu {
   text-decoration: underline;
 } 
 
+.message .container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .message .sub-text {
-  width: 85%;
+  width: 70%;
   text-align: left;
   margin: 0 auto;
   padding-top: 80px;
