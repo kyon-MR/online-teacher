@@ -464,8 +464,8 @@ header #menu {
 }
 
 #service .planning .schedule img {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   margin: 0 40px 0 40px;
 }
 
@@ -643,7 +643,8 @@ header #menu {
 .changes {
   display: flex;
   padding-top: 250px;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 
 .changes .text {
